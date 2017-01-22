@@ -161,7 +161,18 @@ sup {
 }
 
 ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: #0aa solid 6px;
     background: #eee;
     text-align: center;
     list-style-type: none;
+}
+
+li {
+    display: block;
+    margin: auto;
+    border-top: #add solid 1px;
+    width: 60%;
 }
