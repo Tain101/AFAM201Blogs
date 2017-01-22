@@ -176,3 +176,27 @@ li {
     border-top: #add solid 1px;
     width: 60%;
 }
+
+.quote {
+    color: #000;
+    background: #eaf0f0;
+    display: inline;
+}
+
+div.nav {
+    text-align: center;
+    color: #aaa;
+    font-size: 200%;
+}
+
+div.nav a, div.nav div {
+    display: inline-block;
+    width: 49%;
+    color: #aaa;
+}
+
+div.nav a:hover {
+    color: #477;
+    background-color: #ddd;
+}
+
